@@ -1,0 +1,56 @@
+
+body{
+    background-color: bisque;
+}
+.perrito{
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(15, 171, 31);
+}
+
+.texto{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagen{
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 10px;
+}
+
+#titulo{
+    font-size: 40px;
+    font-style: italic;
+}
+
+#subtitulo{
+    font-style: oblique;
+}
+
+#pug{
+    color: rgb(35, 39, 112);
+}
+
+
+#husky{
+    color: rgb(74, 17, 128);
+}
+#mestizo{
+    color: rgb(122, 15, 113);
+}
+#salchicha{
+    color: rgb(117, 23, 23);
+}
+#dalmata{
+    color: rgb(73, 70, 70);
+}
+#aviso{
+    font-size: 60px;
+    color: rgb(249, 0, 0);
+}
+#nota{
+    font-style: italic;
+    font-weight: 1000;
+}
+
