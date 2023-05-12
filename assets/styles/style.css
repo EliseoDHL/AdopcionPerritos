@@ -2,10 +2,16 @@
 body{
     background-color: bisque;
 }
+
+p, h1, h2, h4{
+    text-align: center;
+}
+
 .perrito{
     font-size: x-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: rgb(15, 171, 31);
+    color: rgb(91, 20, 107);
 }
 
 .texto{
@@ -15,42 +21,74 @@ body{
 
 .imagen{
     border-style: solid;
-    border-color: rgb(0, 0, 0);
+    border-color: rgba(178, 129, 24, 0.805);
     border-width: 10px;
+
 }
 
 #titulo{
     font-size: 40px;
     font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #subtitulo{
     font-style: oblique;
 }
 
-#pug{
-    color: rgb(35, 39, 112);
-}
-
-
-#husky{
-    color: rgb(74, 17, 128);
-}
-#mestizo{
-    color: rgb(122, 15, 113);
-}
-#salchicha{
-    color: rgb(117, 23, 23);
-}
-#dalmata{
-    color: rgb(73, 70, 70);
-}
 #aviso{
     font-size: 60px;
     color: rgb(249, 0, 0);
+    text-shadow: 5px 5px 5px rgba(28,110,164,0.3);
+    animation-name: parpadeo;
 }
 #nota{
     font-style: italic;
     font-weight: 1000;
 }
+
+#links{
+    text-align: center;
+    border: 10px;
+    border-style: double;
+    background-color: rgb(15, 171, 31);
+}
+
+.text {
+    font-size:28px;
+    font-family:helvetica;
+    font-weight:bold;
+    color:#71d90b;
+    text-transform:uppercase;
+  }
+  .parpadea {
+    
+    animation-name: parpadeo;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1.6s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
 
