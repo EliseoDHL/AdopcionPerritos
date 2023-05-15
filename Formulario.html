@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Adopcion</title>
+    <link href="./assets/styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Adoptando Ando</h1>
+    <form>
+        <div id="datos">
+            <h3>Datos del Candidato</h3>
+
+            <label>Nombre Completo</label>
+            <input type="text" maxlength="60" required>
+
+            <br>
+
+            <label>Ciudad</label>
+            <input type="text" maxlength="30" required>
+
+            <label>Direccion</label>
+            <input type="text" maxlength="100" required>
+
+            <br>
+
+            <label>Codigo Postal</label>
+            <input type="text" maxlength="5" required>
+
+            <label>Telefono</label>
+            <input type="button" value="+52">
+            <input type="text" maxlength="10" required>
+
+            <br>
+
+            <label>E-Mail</label>
+            <input type="email" required>
+
+            <br>
+
+        </div>
+
+        <div id="datos">
+            <h3>Datos del Adoptado</h3>
+
+            <label>Nombre</label>
+            <input type="text" maxlength="30">
+
+            <br>
+
+            <label>Raza</label>
+            <input type="text" maxlength="15">
+
+            <br>
+
+            <label> Edad</label>
+            <input type="number">
+
+            <br>
+
+            <label>Tamaño</label>
+            <input type="text" maxlength="10" placeholder="Grande,Mediano o Pequeño">
+
+            <br>
+
+            <label>Color</label>
+            <input type="text" maxlength="15">
+
+            <br>
+            <br>
+
+            <label>¿Vacunado?</label>
+            <br>
+            <label>Si</label>
+            <input name="vacuna" type="radio">
+
+            <label>No</label>
+            <input name="vacuna" type="radio">
+
+            <br>
+
+            <label>¿Castrado?</label>
+            <br>
+
+            <label>Si</label>
+            <input name="castrado" type="radio">
+
+            <label>No</label>
+            <input name="castrado" type="radio">
+
+        </div>
+
+        <input type="submit">
+
+    </form>
+</body>
+
+</html>
